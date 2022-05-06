@@ -2,7 +2,6 @@
 // context.fillStyle = 'rgba(0,0,0,0.5)';
 // context.fillRect(0,0,window.innerWidth,window.innerHeight);
 
-javascript: (()=>{
   var themeElements;
   for(let x of ["dark", "light", "spooky"]){ 
     let el = document.querySelectorAll(".replit-ui-theme-root." + x);
@@ -19,4 +18,3 @@ javascript: (()=>{
       el.style.setProperty(...i); 
     })
   }) 
-})();
