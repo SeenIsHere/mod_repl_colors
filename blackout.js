@@ -14,7 +14,3 @@ themeElements.forEach(el=>{
     el.style.setProperty(...i);
   });
 });
-
-var context = document.querySelector("#workspace-root > div > div.jsx-1076194302.content > div.jsx-849e56f81ae5af67.workspace-page-wrapper.desktop > div > div > div:nth-child(6) > div > div > div.jsx-c6ae3a1d7966c39d.xterm-container > div > div.xterm-screen > canvas.xterm-text-layer").getContext("2d");
-context.fillStyle = "rgba(0,0,0,0.5)";
-context.fillRect(0, 0, window.innerWidth, window.innerHeight);
